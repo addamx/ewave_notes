@@ -1,4 +1,4 @@
-#=Deploy
+# Deploy
 - Less compile: 1. server compile; 2. less.js compile; 3. grunt task
 
 ## developer mode

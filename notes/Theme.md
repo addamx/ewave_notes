@@ -30,7 +30,9 @@ http://magento.local/styleguide (by ewave/styleguide)
 
 ## Project Theme
 [app/design/frontend/Vendor/themename/]
+
 ![](../media/img/theme5.png)
+
 [web/css/source]
 - `_theme.less`: change variables of **lib/web**, **lego-base** and **defaulttheme**;
     - `variables-override/*`

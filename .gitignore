@@ -4,9 +4,6 @@
 
 /app/etc/local.xml
 
-/media/*
-!/media/.htaccess
-
 !/media/customer
 /media/customer/*
 !/media/customer/.htaccess

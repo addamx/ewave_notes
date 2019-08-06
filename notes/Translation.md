@@ -12,10 +12,10 @@ $this->_loadDbTranslation();
 
 # Translation of js
 
-## Where is js-translation comes from?
+## Where is js-translation from?
 1. ajax request for js-translation dictionary: `vendor/magento/module-translation/view/base/templates/translate.phtml`;
-    1. That's why somtimes a translation is missing at cold start, because the target script runs before the ready of translation.
-2. check file-version `lib/web/mage/translate-init.js`; (version by `sha1_file($translationFile)` $translationFile is the absolute path of js-translation.json, so the version will never change unless you change its path);
+    1. That's why sometimes a translation is missing at cold start, because the target script runs before the ready of translation.
+2. check file-version `lib/web/mage/translate-init.js`; (version by `sha1_file($translationFile)` $translationFile is the absolute path of js-translation.json(/var/www/public_html/pub/static/frontend/vendor/theme/js-translation.json), so the version will never change unless you change its path);
 3. fetch the content of js-translaton.json, save them in js variable `lib/web/mage/translate.js`;
 4. add cache in localStorage;
 

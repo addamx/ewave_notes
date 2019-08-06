@@ -1,4 +1,4 @@
-# 2. Theme
+# Theme
 ```
 lib/web
 ||

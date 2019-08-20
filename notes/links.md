@@ -1,5 +1,6 @@
 # Ewave
 - ⭐[FE Development Requirements](https://wiki.ewave.com/display/LEGO/FE+Development+Requirements) (Ewave FE)
+- exam: https://wiki.ewave.com/display/TP/M2+Professional+Front+End+Developer+Certification
 
 # Magento
 - [Magento 2 email template template directives](https://gordonlesti.com/magento-2-email-template-template-directives/)

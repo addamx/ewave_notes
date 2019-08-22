@@ -47,3 +47,31 @@ php bin/magento config:set webapi/webapisecurity/allow_insecure 1
 php bin/magento config:set web/secure/base_static_url ''
 php bin/magento config:set web/secure/base_media_url ''
 ```
+
+
+
+# IDE
+
+## vscode
+- install **stylelint**
+    - 1. install stylelint extension;
+    - 2. install plugin(if any)  in local project (eg `npm install -D stylelint-config-standard`);
+    - 3. add related settings (refer to `project settings`)
+- install **eslint**
+    - 1. install eslint extension;
+    - 2. install eslint and plugins(if any) in local project (eg `npm install -D eslint eslint-config-standard`);
+    - 3. add related settings (refer to `project settings`)
+- Project settings: `./.vscode/settings.json`
+```json
+{
+     // stylelint
+     "css.validate": false,
+     "less.validate": false,
+     "scss.validate": false,
+     // eslint
+    "javascript.validate.enable": false,
+    "editor.formatOnPaste":true,
+    "editor.formatOnSave":false,
+    "eslint.autoFixOnSave": false
+}
+```

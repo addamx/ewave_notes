@@ -40,8 +40,10 @@
 ```
 
 # Add cms block
+```xml
 <block class="Magento\Cms\Block\Block" name="footer.social.block">
     <arguments>
         <argument name="block_id" xsi:type="string">footer-social</argument>
     </arguments>
 </block>
+```

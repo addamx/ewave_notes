@@ -19,7 +19,7 @@
 </referenceBlock>
 ```
 
-# Add a static text
+# Add static text
 ```xml
 <block class="Magento\Framework\View\Element\Template" name="checkout.cart.summary.title" before="-" template="Magento_Theme::text.phtml">
     <arguments>
@@ -38,3 +38,10 @@
     </action>
 </referenceBlock>
 ```
+
+# Add cms block
+<block class="Magento\Cms\Block\Block" name="footer.social.block">
+    <arguments>
+        <argument name="block_id" xsi:type="string">footer-social</argument>
+    </arguments>
+</block>

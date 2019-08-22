@@ -36,8 +36,8 @@
 "grunt-writefile": "^0.1.4",
 ```
 2 . create/modfy config/task file:
-PATH: dev/tools/grunt/config/
-Files: babel.js, clean.js, path.js, svgmin.js, svgstore.js, svgtobase64.js, uglify.js, writefile.js
+- PATH: dev/tools/grunt/config/
+- Files: babel.js, clean.js, path.js, svgmin.js, svgstore.js, svgtobase64.js, uglify.js, writefile.js
 **command:**
 - `grunt babel` (compile js from es6 to es5)
 - `grunt svg` (svg sprite, svg base64 variable)

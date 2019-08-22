@@ -1,3 +1,0 @@
-# Cms Upgrade module
-Export content of **Block**, **Page**, **Wigets**, **banner**, **store configs** as `\app\code\Ewave\cmsupgradedata\data-upgrade-x.x.x-x.x.y` without media files.
-
